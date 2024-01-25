@@ -231,7 +231,7 @@ div.beaseheader
   > div.header8
   > div.header9
   > div.header10
-  > div.span {
+  > span {
   padding-left: 16px;
   padding-right: 16px;
   white-space: nowrap;
@@ -259,6 +259,7 @@ div.beaseheader
   color: #81858b;
   align-items: center;
   display: flex;
+  width: inherit;
 }
 
 div.beaseheader > div.header1 > div.header2 > div.header3 > div.header14 {
@@ -3266,7 +3267,6 @@ div.but > div.but2 {
   align-items: center;
   display: flex;
 }
-div.but > div.but2 > div.but3{
+div.but > div.but2 > div.but3 {
   display: flex;
-
 }
